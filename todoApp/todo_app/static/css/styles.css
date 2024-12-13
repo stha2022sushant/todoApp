@@ -1,0 +1,18 @@
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.task.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.list-group-item {
+    transition: transform 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+    background-color: #f1f1f1;
+}
